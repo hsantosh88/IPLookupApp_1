@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description>Sample Topic to check status</description>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "5ab984d869a74fe0b18036cce5ebc857": {
+      "id": "5ab984d869a74fe0b18036cce5ebc857",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ab7b29863c1948b09ac399f30581c8fb": {
+          "id": "ab7b29863c1948b09ac399f30581c8fb",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "31b57824f9f446f18ec26daac20e77ae": {
+          "id": "31b57824f9f446f18ec26daac20e77ae",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d24a49bbcc3c4223953087eb12f0e01e",
+          "edgeType": "Edge",
+          "source": "ab7b29863c1948b09ac399f30581c8fb",
+          "target": "31b57824f9f446f18ec26daac20e77ae",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>Sample Topic,sample,Hello,New one,check</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Sample Topic</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-27 04:54:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>db1a320b2ffe330027e85d372799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Topic</sys_name>
+        <sys_package display_value="IPLookup" source="x_356664_iplookup">04b350cf2f3a330027e85d372799b647</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">04b350cf2f3a330027e85d372799b647</sys_scope>
+        <sys_update_name>sys_cb_topic_db1a320b2ffe330027e85d372799b649</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-27 04:54:53</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=db1a320b2ffe330027e85d372799b649"/>
+</record_update>

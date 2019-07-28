@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applicability/>
+        <cb_topic_id display_value="">702a320b2ffe330027e85d372799b6be</cb_topic_id>
+        <definition>{"id":"702a320b2ffe330027e85d372799b6be","name":"Sample Topic","vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Sample Topic","applicability":"","category":"","key_phrases":["Sample Topic","sample","Hello","New one","check"],"variables":[{"name":"__segment_trigger_a17f762a9a65440f888763dfe34064f7_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Boolean","name":"RootDecisionBranch_83fa7a0bd3fe3300ac2d2dcaa53de387","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_03fa7a0ba1fe3300b48c66a711389a87","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_31b57824f9f446f18ec26daac20e77ae","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_ab7b29863c1948b09ac399f30581c8fb","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_a17f762a9a65440f888763dfe34064f7_done==false","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_83fa7a0bd3fe3300ac2d2dcaa53de387\");vaInputs.initialize(\"__silent_TerminateGoal_31b57824f9f446f18ec26daac20e77ae\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87\");vaInputs.initialize(\"__silent_Decision_RootDecision_03fa7a0ba1fe3300b48c66a711389a87\");vaInputs.initialize(\"__silent_StartGoal_ab7b29863c1948b09ac399f30581c8fb\");null;","fields":[{"name":"__silent_Decision_RootDecision_03fa7a0ba1fe3300b48c66a711389a87","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_03fa7a0ba1fe3300b48c66a711389a87\";vaInputs.__silent_Decision_RootDecision_03fa7a0ba1fe3300b48c66a711389a87=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_03fa7a0ba1fe3300b48c66a711389a87\";vaInputs.RootDecisionBranch_83fa7a0bd3fe3300ac2d2dcaa53de387=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_03fa7a0ba1fe3300b48c66a711389a87\" &amp;&amp; ((vaInputs.RootDecisionBranch_83fa7a0bd3fe3300ac2d2dcaa53de387.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87___RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87\";vaInputs.__silent_Branch_RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87___RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87\";null;"},{"name":"__silent_StartGoal_ab7b29863c1948b09ac399f30581c8fb","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87___RootDecisionBranch_43fa7a0b2dfe3300b88259c606822a87\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___ab7b29863c1948b09ac399f30581c8fb\";vaInputs.__silent_StartGoal_ab7b29863c1948b09ac399f30581c8fb=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"Start___ab7b29863c1948b09ac399f30581c8fb\";null;"},{"name":"__silent_TerminateGoal_31b57824f9f446f18ec26daac20e77ae","applicable":"vaVars.previous_graph_node==\"Start___ab7b29863c1948b09ac399f30581c8fb\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___31b57824f9f446f18ec26daac20e77ae\";vaInputs.__silent_TerminateGoal_31b57824f9f446f18ec26daac20e77ae=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"End___31b57824f9f446f18ec26daac20e77ae\";vaVars.__segment_trigger_a17f762a9a65440f888763dfe34064f7_done=true;null;"}],"variables_update":[]}],"roles":[],"active":false,"published":true,"score":-1.0,"sys_scope":"04b350cf2f3a330027e85d372799b647","title":"Sample Topic"}</definition>
+        <fields/>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Sample Topic sample Hello New one check</key_phrases>
+        <metaphone>SMPL null XK HL TPK N</metaphone>
+        <name>Sample Topic</name>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-27 04:54:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>702a320b2ffe330027e85d372799b6be</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Sample Topic</sys_name>
+        <sys_package display_value="IPLookup" source="x_356664_iplookup">04b350cf2f3a330027e85d372799b647</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">04b350cf2f3a330027e85d372799b647</sys_scope>
+        <sys_update_name>sys_cs_topic_702a320b2ffe330027e85d372799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-27 05:09:54</sys_updated_on>
+        <title>Sample Topic</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=702a320b2ffe330027e85d372799b6be"/>
+</record_update>
